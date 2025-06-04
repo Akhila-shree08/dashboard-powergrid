@@ -136,7 +136,7 @@ with col2:
 
 # ---------- OPTIMIZATION SUGGESTION ----------
 st.subheader("⚡ Source Optimization Recommendation")
-if temp > 30 and humidity < 50:
+if temp > 30 and humidity < 60:
     source = "Solar"
 else:
     source = "Grid"
